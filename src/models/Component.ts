@@ -11,10 +11,10 @@ interface IComponentDetail {
 
 export interface IComponent {
   _id?: string;
-  description: string;
+  description?: string;
   price?: number;
   storeName?: string;
   href?: string;
-  imageHrefs: [string];
-  details: [IComponentDetail];
+  imageHrefs?: string[];
+  details?: IComponentDetail[];
 }
