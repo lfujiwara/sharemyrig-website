@@ -9,7 +9,10 @@ export default function Header() {
     config: { duration: 800 },
   });
   return (
-    <animated.div className="w-full" style={divAnimation}>
+    <animated.div
+      className="w-full flex flex-row p-4 bg-white shadow"
+      style={divAnimation}
+    >
       <LogoSvg />
     </animated.div>
   );
