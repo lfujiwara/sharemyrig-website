@@ -10,10 +10,10 @@ export default function Header() {
   });
   return (
     <animated.div
-      className="w-full flex flex-row p-4 bg-white shadow"
+      className="w-full h-24 flex flex-row p-4 bg-white shadow"
       style={divAnimation}
     >
-      <LogoSvg />
+      <LogoSvg height="100%" />
     </animated.div>
   );
 }
